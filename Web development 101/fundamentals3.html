@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fundamentals 3 practice</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  <script>
+    //README -> uncomment lines to call prompt and function
+
+    // First task
+    function add7(number){
+      total = parseInt(number)+7;
+    console.log(total)
+    }
+    //var number=prompt('Enter a number')
+    // add7(number)
+
+    //Second task
+    function multiply(num1, num2){
+      product = parseInt(num1) * parseInt(num2);
+      console.log(product)
+    }
+    //var num1=prompt('Enter the first number')
+    //var num2=prompt('Enter the second number')
+    // multiply (num1, num2)
+
+    //Third task
+    function capitalize(string){
+        lowercase_string = string.toLowerCase();
+        // change the first letter to uppercase using charAt
+        first_letter = lowercase_string.charAt(0).toUpperCase();
+        // extract a section of a string using slice
+        rest_of_string = lowercase_string.slice(1);
+        // output the caplitalized word
+        console.log(first_letter+rest_of_string)
+    }
+    // string=prompt('Enter a word')
+    // capitalize(string)
+
+    // Last task
+    function lastLetter(string){
+        last_letter = string.slice(-1);
+        console.log(last_letter)
+    }
+    string=prompt("Enter a word")
+    lastLetter(string)
+
+  </script>
+</body>
+</html>
