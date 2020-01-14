@@ -1,0 +1,27 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Number greater than 100</title>
+  </head>
+  <body>
+    <script>
+
+    input = prompt("Please enter a number greater than 100");
+
+    function wellDone(){
+      alert("Well done! You've' entered a number greater than 100");
+    }
+    if (input > 100){
+      wellDone();
+    }
+    else {
+      do {
+        input = prompt("Please enter a number greater than 100");
+      }while (input <= 100);
+    wellDone();
+    }
+
+    </script>
+  </body>
+</html>
