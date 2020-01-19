@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  background: grey;
+  background-size: cover;
+
+}
+
+header {
+  background: #ffecff  ;
+  opacity: 0.9;
+}
+
+header > h1 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  font-family: monospace;
+
+}
+
+.scoreboard{
+  margin: 20px auto;
+  border: 3px solid white;
+  border-radius: 20px;
+  text-align: center;
+  height: 150px;
+  width: 400px;
+  color: white;
+  font-size: 50px;
+  padding: 15px 20px;
+  background: darkgrey;
+  position: relative;
+}
+
+.score {
+  font-size: 40px;
+}
+
+#player {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+
+#computer {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+#playerScore {
+  position: absolute;
+  top: 80px;
+  left: 60px;
+}
+
+#computerScore {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+}
+
+.choices {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.button {
+  padding: 15px 32px;
+  display: inline-block;
+  background-color: purple;
+  border: 1px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#rock{
+  position: absolute;
+  text-align: center;
+  left: 370px;
+}
+
+#paper{
+  position: absolute;
+  text-align: center;
+  left: 500px;
+}
+
+#scissors{
+  position: absolute;
+  text-align: center;
+  left: 630px;
+}
+
+.message{
+  position: relative;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+#action-message{
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  top: 60px;
+
+}
