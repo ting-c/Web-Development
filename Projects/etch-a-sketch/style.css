@@ -1,0 +1,114 @@
+html {
+  background-image: linear-gradient(45deg, purple, pink);
+  justify-items: center;
+}
+
+header {
+  margin-bottom: 10px;
+  padding: 3px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: purple;
+  border: 5px thin purple;
+  border-radius: 10px;
+  width: 93vw;
+  background-color: white;
+
+}
+
+.container {
+  background-color: white;
+  display: grid;
+  margin: 2px;
+  border: 3px solid purple;
+  border-radius: 10px;
+  padding: 6px;
+  justify-content: center;
+  width: 90vw;
+  height: 90vw;
+  grid-template-rows: repeat(var(--rows), 1fr);
+  grid-template-columns: repeat(var(--cols), 1fr);
+  grid-gap: 1px;
+}
+
+.container .cell {
+  background-color: gray;
+  opacity: 0.15;
+}
+
+.container .cell:hover {
+  background-color: hsl(30, 0%, 95%);
+  opacity: 1;
+}
+
+
+.container .cell-black{
+  background-color: black;
+  opacity: 1;
+}
+
+.container .cell-white{
+  background-color: white;
+  opacity: 1;
+}
+
+.container .cell-red{
+  background-color: red;
+  opacity: 1;
+}
+
+.container .cell-pink{
+  background-color: pink;
+  opacity: 1;
+}
+
+.container .cell-yellow{
+  background-color: yellow;
+  opacity: 1;
+}
+
+.container .cell-green{
+  background-color: green;
+  opacity: 1;
+}
+
+.container .cell-blue{
+  background-color: blue;
+  opacity: 1;
+}
+
+.container .cell-violet{
+  background-color: violet;
+  opacity: 1;
+}
+
+.container .cell-purple{
+  background-color: purple;
+  opacity: 1;
+}
+
+.container .cell-undo{
+  background-color: gray;
+  opacity: 0.15;
+}
+
+.button {
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.button:hover {
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: pink;
+}
+
+.radio {
+  border: 2px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: white;
+}
