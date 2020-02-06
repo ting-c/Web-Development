@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <title>Calculator</title>
+  </head>
+  <header>
+  </header>
+  <body>
+    <div class="calculator">
+      <div id="screen"></div>
+      <div class="digits">
+        <input id="clear" type="button" name="clear" value="C" onclick="clearScreen()">
+        <input id="delete" type="button" name="del" value="Del" onclick="deleteInput()">
+        <input id="negative" type="button" name="(-)" value="(-)" onclick="negative()">
+        <input id="d7" type="button" name="7" value="7" onclick="inputDigit(this.value)">
+        <input id="d8" type="button" name="8" value="8" onclick="inputDigit(this.value)">
+        <input id="d9" type="button" name="9" value="9" onclick="inputDigit(this.value)">
+        <input id="d4" type="button" name="4" value="4" onclick="inputDigit(this.value)">
+        <input id="d5" type="button" name="5" value="5" onclick="inputDigit(this.value)">
+        <input id="d6" type="button" name="6" value="6" onclick="inputDigit(this.value)">
+        <input id="d1" type="button" name="1" value="1" onclick="inputDigit(this.value)">
+        <input id="d2" type="button" name="2" value="2" onclick="inputDigit(this.value)">
+        <input id="d3" type="button" name="3" value="3" onclick="inputDigit(this.value)">
+        <input id="d0" type="button" name="0" value="0" onclick="inputDigit(this.value)">
+        <input id="decimal" type="button" name="decimal" value="." onclick="inputDecimal()">
+        <input id="equal" type="button" name="=" value="=" onclick="operate()">
+      </div>
+      <div class="operation">
+        <input id="multiply" type="button" name="x" value="x" onclick="multiply()">
+        <input id="divide" type="button" name="÷" value="÷" onclick="divide()">
+        <input id="subtract" type="button" name="-" value="-" onclick="subtract()">
+        <input id="add" type="button" name="+" value="+" onclick="add()">
+
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

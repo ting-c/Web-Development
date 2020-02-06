@@ -1,0 +1,96 @@
+html{
+  background-image: linear-gradient(72deg, #ebffac, #b1eedd);
+}
+
+header {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.calculator {
+  border: black solid 1px;
+  border-radius: 10px;
+  box-shadow: 3px 3px #888888;
+  background-color: #4d4d4f;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 45vw;
+  width: 40vw;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+#screen {
+  background-color: #e7e7e7;
+  border: black solid 1px;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: 12%;
+  width: 90%;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 10px;
+  font-size: 1.8em;
+  overflow: auto;
+}
+
+.digits {
+  display: inline-block;
+  margin-left: 3%;
+  margin-top: 0%;
+  height: 70%;
+  width: 65%;
+  align-items: center;
+}
+
+.digits input[type="button"] {
+  border-radius: 5px;
+  display: inline-flex;
+  width: 30%;
+  height: 15%;
+  margin: 0.5%;
+  font-size: 1.2em;
+}
+
+#clear {
+  background-color: #fa8484;
+}
+
+#delete {
+  background-color:#ffda99;
+  margin-top: 10%;
+  margin-bottom: 8%;
+}
+
+#negative {
+  background-color: #e7baff;
+}
+
+#equal {
+  background-color: #c1fa84;
+}
+
+.operation {
+  display: inline-block;
+  margin: 5%;
+  height: 70%;
+  width: 17%;
+}
+
+.operation input[type="button"] {
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  height: 15%;
+  margin: 5%;
+  font-size: 1.2em;
+  background-color: orange;
+
+}
