@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Library App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="interface">
+      <div class="tab">
+        <button id="libraryTab" class="tablinks" onclick="openTab(event, 'library')">Library</button>
+        <button id="addTab" class="tablinks" onclick="openTab(event, 'addBooks')">Add Books</button>
+        <button id="helpTab" class="tablinks" onclick="openTab(event, 'help')">Help</button>
+      </div>
+
+      <div id="library" class="content">
+          <button id="scrollLeft" class="scrollButton"><</button>
+          <div class="display">
+          </div>
+          <button id="scrollRight" class="scrollButton">></button>
+      </div>
+
+      <div id="addBooks" class="content">
+        <br>
+      <form action="javascript:addBookToLibrary();">
+        Book Title: <br>
+        <input id="title" type="text" name="title" required/><br><br>
+        Author's Name: <br>
+        <input id="author" type="text" name="author" required/><br><br>
+        Number of Pages: <br>
+        <input id="pages" type="number" name="pages" min="0" required/><br><br>
+        Read: <br>
+        Yes<input type="radio" id="yes" name="read" value=true checked>
+        No<input type="radio" id="no" name="read" value=false><br>
+        <br><br>
+        <button id="addBookButton" type="submit">
+          Add Book
+        </button>
+        <input id="resetButton" type="reset" name="reset" value="Reset">
+      </form>
+    </div>
+
+
+    <div id="help" class="content">
+      This library app allows you to add new books and remove existing books.<br>
+      <br>
+      <br>
+      LIBRARY<br>
+      <ul>
+        <li>Click on the Library tab to look at the existing book.</li>
+        <li>You can remove book or toggle the read status using the buttons at the bottom of each book.</li>
+      </ul>
+      <br>
+      ADD BOOKS<br>
+      <ul>
+        <li>Click on the Add Books tab to add new books to the library.</li>
+        <li>You need to fill in all details before adding a new book.</li>
+      </ul>
+
+  </div>
+  <script type="text/javascript" src="script.js"> </script>
+  </body>
+</html>
