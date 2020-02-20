@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <div class="interface">
+    <div class="homepage">
+      <header>Tic-Tac-Toe</header>
+      <br>
+
+    First player to win five rounds is the winner!<br><br>
+    <form action="javascript:addName()">
+      Player 1's Name: <br>
+      <input id="player1" type="text" name="player1" required/><br><br>
+      Player 2's Name: <br>
+      <input id="player2" type="text" name="player2"><br>
+      <button id="addName" type="submit">
+        Add Name(s)
+      </button>
+    </form>
+    <br>
+    Play Against:
+    <br>
+    <button id="againstHuman" onclick="againstHuman()">Human</button>
+    <button id="againstCompEasy" onclick="againstCompEasy()">Computer (Easy)</button>
+    <button id="againstCompHard" onclick="againstCompHard()">Computer (Hard)</button>
+    <button id="againstCompGod" onclick="againstCompGod()">Computer (God mode)</button>
+    </div>
+
+    <div class="play">
+    <div class="scoreboard">
+      <div id='playerScore'>
+        X
+        <div id='playerScoreCount'>
+          0
+        </div>
+      </div>
+      <div id='compScore'>
+        O
+        <div id='compScoreCount'>
+          0
+        </div>
+      </div>
+    </div>
+    <button id="main" onclick="main()">Back to Mainpage</button>
+    <button id="resetScore" onclick="resetScore()">Reset Score</button>
+    <button id="nextRound" onclick="nextRound()">Play Next Round</button>
+    <div class="gameboard">
+    </div>
+    </div>
+  </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

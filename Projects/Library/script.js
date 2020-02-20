@@ -38,7 +38,7 @@ function openTab(event, tab) {
   );
   // Get all elements with class="tablinks" and remove the class "active"
   let tablinks = document.querySelectorAll(".tablinks");
-  tablinks.forEach(
+  tablinks.forEach( 
     function(currentTab) {
       currentTab.className = currentTab.className.replace(" active", "");
     }
