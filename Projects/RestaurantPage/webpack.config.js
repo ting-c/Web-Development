@@ -27,5 +27,3 @@ module.exports = {
   },
 
 };
-
-// set up both css and style loaders

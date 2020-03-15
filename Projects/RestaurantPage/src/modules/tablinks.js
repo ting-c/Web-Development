@@ -32,11 +32,6 @@ function tabLinks() {
     tab.appendChild(tablink);
   }
 
-  // set onclick attribute
-  // document.querySelector("#AboutTab").setAttribute("onclick", "openLink(event, 'About')");
-  // document.querySelector("#MenuTab").setAttribute("onclick", "openLink(event, 'Menu')");
-  // document.querySelector("#ContactTab").setAttribute("onclick", "openLink(event, 'Contact')");
-
 // create tabcontent
   for (let link in tabLinks){
     let tab = document.createElement('div');
