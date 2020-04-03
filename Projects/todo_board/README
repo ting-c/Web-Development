@@ -1,0 +1,31 @@
+Functionality: 
+
+1.  A board that manages a single todo list
+2.  A board that manages multiple todo lists with extended features for lists and items
+
+Commands:
+
+mktodo <title> <deadline> <optional description>
+    makes a todo with the given information
+
+up <index> <optional amount>
+    raises the todo up the list
+
+down <index> <optional amount>
+    lowers the todo down the list
+
+swap <index_1> <index_2>
+    swaps the position of todos
+
+sort
+    sorts the todos by date
+
+priority
+    prints the todo at the top of the list
+
+print <optional index>
+    prints all todos if no index is provided
+    prints full information of the specified todo if an index is provided
+
+quit
+    returns false
