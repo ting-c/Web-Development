@@ -1,0 +1,8 @@
+Game Rules:
+
+1) Players take turns to add a letter to the fragment that is valid which means it is possible to form a word in the dictionary.
+2) The player will have to enter a letter that is valid before the next player have their turn.
+3) Each player will have 3 chances for incorrect guesses. 
+4) The game checks the fragment against a dictionary; if the fragment is a word contained in the dictionary, then the previous player loses.
+5) In a game of Ghost, a player "earns" a letter each time they lose a round. Thus, if Eric beats Ryan 3 times and loses once, then Eric has a "G" and Ryan has a "GHO". 
+    If a player spells the word "GHOST", they are eliminated from play (and in the case of two players, the other player wins). 
